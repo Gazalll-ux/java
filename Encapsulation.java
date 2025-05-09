@@ -1,4 +1,4 @@
-class Atm{
+class Atm{ 
    private int a;
    void setRupees(int a){
     this.a=a;
