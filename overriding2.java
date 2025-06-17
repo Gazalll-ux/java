@@ -1,25 +1,22 @@
-//public class overriding2 {
-//    public static void main(String[] args) 
-    //Student obj=new Print();
-   //
-// obj.displaydetails();    
-    
-    
-
-//class Student{
-   // void displaydetails (){
-    //    System.out.println("name=Gazal");
-   // }
-
-
-
-//class Print extends Student{
-   // void displaydetails (){
-       // System.out.println("roll num=10");
-//super.run();
-class Atm{
-    private int a;
+public class overriding2{
+    public static void main(String[] args) {
+    Animal obj =new Dog();  
+    obj.sound ();
+    }
 }
+class Animal{
+    void sound(){
+    System.out.println("sound of dog");
+}
+}
+class Dog extends Animal {
+    void sound(){
+        System.out.println("barkkkk");
+        super.sound();
+    }
+}
+
+
 
 
     
